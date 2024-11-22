@@ -23,7 +23,7 @@ def google_search(DORK):
     session = requests.Session()
     session.verify = True
 
-    client = ApifyClient("apify_api_mOsdo7nPdxPxhVdI7eB0YjZRfIn95a0IyJPa")
+    client = ApifyClient("API_KEY")#CHANGE THIS WITH YOUR API KEY
 
     run_input = {
         "queries": DORK,
